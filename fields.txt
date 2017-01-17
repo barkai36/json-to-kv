@@ -1,0 +1,21 @@
+# Fields file
+# Any field written here will be searched in the json files, and will be written as newfield
+# Format: 
+#        "field": "value"                             							to "newfield" => field=newfield
+#        "parent": { "field": "value" } 			    						to "newfield" => parent.field=newfield
+#		 "grand" : { "otherfield:": "othervalue", parent": { "field": "value"}}	to "newfield" => grand.parent.field=newfield
+#
+
+[fields]
+CallRecord.CallId=CallId
+CallRecord.DurationInSeconds=DurationInSeconds
+CallRecord.ExternalServiceType=ExternalServiceType
+CallRecord.InsertedByService=InsertedByService
+ResponseCode=ResponseCode
+CallRecord.SessionId=SessionId
+CallRecord.StatusUpdateTime=StatusUpdateTime
+CallRecord.UserAgent=DstUserAgent
+CallRecord.GroupId=GroupId
+CallRecord.ServiceType=ServiceType
+EventHeaders.X_External_Transaction_Id=X_External_Transaction_Id
+CallRecord.SourceUserAgent=SourceUserAgent
