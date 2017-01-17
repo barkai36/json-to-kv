@@ -10,6 +10,12 @@ The following python script will convert a folder with json files to a new 'filt
 fields_file - Full fields file location. The fields file contains the desired fileds to keep from the json.
 dir - Source folder with json files to filter and convert.
 folders - Which inner folders inside the 'dir' folder to use. (Future: make this option optional, currently its mandatory)
+
+Example:
+[Conf]
+fields_file=C:\Jsonfilter\fields.txt
+dir=\\server\\sourcefolder
+folders=Closed,Incomplete
 ~~~
 ## Edit fields.txt
 ~~~
